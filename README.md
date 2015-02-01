@@ -7,6 +7,17 @@ ssl-self-signed-certificate
 [![Travis][travis-image]][travis-url]
 [![Coveralls][coveralls-image]][coveralls-url]
 
+```javascript
+var signCertificate = require('ssl-self-signed-certificate');
+
+signCertificate('my-passphrase', function (err) {
+  // Generated files
+  // ./localhost.key
+  // ./localhost.crt
+  // ./passphrase
+});
+```
+
 ___module_(passphrase, [options], callback) : undefined__
 
 Generates a self-signed SSL certificate. Creates 3 files: key, certificate and passphrase. The passphrase file just contains the `passphrase` parameter. The callback receives an error as the first argument.
