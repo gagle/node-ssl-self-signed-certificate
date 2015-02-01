@@ -25,6 +25,6 @@ Options:
 [npm-version-image]: https://img.shields.io/npm/v/ssl-self-signed-certificate.svg?style=flat
 [npm-url]: https://npmjs.org/package/ssl-self-signed-certificate
 [travis-image]: https://img.shields.io/travis/gagle/node-ssl-self-signed-certificate.svg?style=flat
-[travis-url]: https://travis-ci.org/gagle/node-ssl-self-signed-certificate
+[travis-url]: https://travis-ci.org/gagle/ssl-self-signed-certificate
 [coveralls-image]: https://img.shields.io/coveralls/gagle/node-ssl-self-signed-certificate.svg?style=flat
 [coveralls-url]: https://coveralls.io/r/gagle/node-ssl-self-signed-certificate
