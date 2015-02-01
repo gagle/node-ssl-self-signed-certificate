@@ -9,7 +9,7 @@ ssl-self-signed-certificate
 
 ___module_(passphrase, [options], callback) : undefined__
 
-Generates a self-signed SSL certificate. Creates 3 files: key, certificate and passphrase. The passphrase file just contains the `passphrase` parameter.
+Generates a self-signed SSL certificate. Creates 3 files: key, certificate and passphrase. The passphrase file just contains the `passphrase` parameter. The callback receives an error as the first argument.
 
 Options:
 
