@@ -1,0 +1,27 @@
+{
+  "name": "ssl-self-signed-certificate",
+  "version": "0.1.0",
+  "description": "Self-signed SSL certificate for development",
+  "keywords": [
+    "ssl",
+    "openssl",
+    "self-signed",
+    "certificate"
+  ],
+  "author": "Gabriel Llamas <gagle@outlook.com>",
+  "repository": "git://github.com/gagle/node-ssl-self-signed-certificate.git",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "devDependencies": {
+    "code": "^1.3.0",
+    "lab": "^5.2.1",
+    "sinon": "^1.12.2"
+  },
+  "scripts": {
+    "test": "node node_modules/lab/bin/lab -t 100",
+    "test-lcov": "node node_modules/lab/bin/lab -t 100 -r lcov"
+  },
+  "license": "MIT",
+  "main": "lib"
+}
