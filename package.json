@@ -1,6 +1,6 @@
 {
   "name": "ssl-self-signed-certificate",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Self-signed SSL certificate for development",
   "keywords": [
     "ssl",
@@ -20,8 +20,8 @@
     "sinon": "^1.12.2"
   },
   "scripts": {
-    "test": "node node_modules/lab/bin/lab -t 100",
-    "test-lcov": "node node_modules/lab/bin/lab -t 100 -r lcov"
+    "test": "lab -t 100",
+    "test-lcov": "lab -t 100 -r lcov"
   },
   "license": "MIT",
   "main": "lib"
