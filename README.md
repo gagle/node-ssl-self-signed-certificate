@@ -22,7 +22,7 @@ I requires the `openssl` binary. For testing it requires `curl`.
 
 ___module_(passphrase, [options], callback) : undefined__
 
-Generates a self-signed SSL certificate. Creates 3 files: key, certificate and passphrase. The passphrase file just contains the `passphrase` parameter. The callback receives an error as the first argument.
+Generates a self-signed SSL certificate. It creates 3 files: key, certificate and passphrase. The passphrase file just contains the `passphrase` parameter. The callback receives an error as the first argument.
 
 Options:
 
